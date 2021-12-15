@@ -1,0 +1,80 @@
+/*==========CONTACTO===========*/
+
+
+.formulario{
+    margin: 2%;
+    border: solid 5px $color-borde-gris ;
+    padding: 2%;
+    
+    
+  }
+  
+  .telefono{
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+  }
+  .telefono  {
+                p{
+                    margin: $lab-p-margin;
+                }
+  }
+  .telefono  {  
+                div{
+                    margin: $lab-p-margin;
+                }
+  }
+  
+  .telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    border: $color-borde-gris solid 5px;
+  
+  }
+  .enviar{
+            &:active{
+                      background-color: yellow;
+                      color: black;
+            }
+          }
+                                
+  
+  .center-col{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
+  .animacionuno{
+  
+    animation-name: animacionuno;
+    animation-duration: 3s;
+   
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes animacionuno {
+    0%{transform: rotate(0);}
+    10%{transform: rotate(0);}
+  
+    10%{transform: rotate(30deg);}
+    50%{transform: rotate(30de);}
+  
+    50%{transform: rotate(-30deg);}
+    90%{transform: rotate(-30deg);}
+  
+    90%{transform: scale(1.2);}
+    100%{transform: scale(1.2);}
+  }
+  

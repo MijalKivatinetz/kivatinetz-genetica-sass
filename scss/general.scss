@@ -1,0 +1,90 @@
+/*Estilos CSS para todas las paginas*/
+
+.hover{
+    transition: all 1s ease;   
+  
+            &:hover{
+                    transform: scale(1.5);
+  }
+}
+  main{
+    grid-area: main;
+  }
+  header{
+    grid-area: header;
+  }
+  /*h1*/
+  .flex-container-h1{
+    display: flex;
+    justify-content: center;
+    background-color: turquoise;
+  }
+  .tipografia{
+    font-family: 'Meow Script', cursive;
+    font-weight: bold;
+    font-size: 3.2em;
+  }
+  /*h2*/
+  h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  /*recuadro de los textos*/
+  .pruebo-box{
+    padding: 15px;
+    border: solid 5px $color-borde-gris;
+    margin:  15px;
+    background-color: $color-fondo;
+  }
+  /*link ir arriba*/
+  .lnav{
+    grid-area: lnav;
+    font-style: italic;
+    
+  }
+  .lnav {
+            a{
+                font-size: 16px;
+                font-weight: 900;
+                text-decoration: underline;
+                color: $color-fondo;
+            }
+  }
+  div {
+    .lnav{
+         margin: 5px 5px 5px 30px ;
+            }
+    }
+
+  /*footer*/
+  
+  footer{
+    margin: 5px 30px 5px 30px;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .fflex {
+            p{
+            color: $color-fondo;
+            }
+        }
+  .icons {
+        svg{
+                margin: 5px;
+            }
+  }
+  /*grilla general*/
+  .main-container-general{
+    display: grid;
+    
+    grid-template-areas: 
+    "header" 
+    "main"
+    "lnav"
+    "footer"
+    ;
+  }

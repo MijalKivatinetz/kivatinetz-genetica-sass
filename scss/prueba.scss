@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Meow+Script&family=Roboto:ital,wght@0,100;1,300;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+@import "variables";
+@import "nav";
+@import "general";
+@import "index";
+@import "estudios";
+@import "nosotros";
+@import "laboratorio";
+@import "contacto";
+@import "media-queries";
